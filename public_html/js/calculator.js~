@@ -1,0 +1,17 @@
+/*
+desc: pandemic cost transformation d3
+author: vorcil
+date: 19/09/2015
+repo: http://github.com/vorcil/adaptiveres
+*/
+
+var body = d3.select("body");
+var svg = d3.select(body).append(svg);
+var box = svg.append(rect)
+    .attr("x", 50)
+    .attr("y", 50)
+    .attr("height", 100)
+    .attr("width", 100)
+    .attr("fill", "red");
+
+		    
